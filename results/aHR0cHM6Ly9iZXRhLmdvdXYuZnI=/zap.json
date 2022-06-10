@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 5 Jun 2022 01:25:07",
+	"@generated": "Fri, 10 Jun 2022 08:05:38",
 	"site":[ 
 		{
 			"@name": "https://beta.gouv.fr",
@@ -94,7 +94,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/communaute/annuaire",
+							"uri": "https://beta.gouv.fr/communaute/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -320,7 +320,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1164"
+					"sourceid": "1176"
 				},
 				{
 					"pluginid": "10017",
@@ -409,7 +409,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "1164"
+					"sourceid": "1176"
 				},
 				{
 					"pluginid": "10063",
@@ -464,7 +464,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/communaute/annuaire",
+							"uri": "https://beta.gouv.fr/communaute/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -810,15 +810,29 @@
 							"param": "",
 							"attack": "",
 							"evidence": "97455880"
+						},
+						{
+							"uri": "https://beta.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "10177365"
+						},
+						{
+							"uri": "https://beta.gouv.fr/startups/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "33275800"
 						}
 					],
-					"count": "42",
+					"count": "44",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>08071963, which evaluates to: 1970-04-04 10:12:43</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "119"
+					"sourceid": "889"
 				},
 				{
 					"pluginid": "10021",
@@ -1023,6 +1037,13 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
+							"uri": "https://beta.gouv.fr/assets/additional/js/search-startup.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "SELECT"
+						},
+						{
 							"uri": "https://beta.gouv.fr/assets/gouvfr/js/dsfr.module.min.js",
 							"method": "GET",
 							"param": "",
@@ -1098,29 +1119,15 @@
 							"param": "",
 							"attack": "",
 							"evidence": "TODO"
-						},
-						{
-							"uri": "https://beta.gouv.fr/startups/?incubateur=apigouv",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select"
-						},
-						{
-							"uri": "https://beta.gouv.fr/startups/?incubateur=apigouv",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "TODO"
 						}
 					],
-					"count": "13",
+					"count": "12",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"const t=window.dsfr||{core:{}};window.dsfr=t;const e=t=>`fr-${t}`;e.selector=(t,s)=>(void 0===s&&(s=\".\"),`${s}${e(t)}`),(e.attr=\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bSELECT\\b and was detected 3 times, the first in the element starting with: \"    console.log('LCS CREATE INCUBATOR SELECT')\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1069"
+					"sourceid": "1539"
 				},
 				{
 					"pluginid": "10109",
@@ -1175,7 +1182,7 @@
 							"evidence": "<a class=\"fr-nav__link\" href=\"/approche\" target=\"_self\">D\u00E9couvrir le programme</a>"
 						},
 						{
-							"uri": "https://beta.gouv.fr/communaute/annuaire",
+							"uri": "https://beta.gouv.fr/communaute/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1367,7 +1374,7 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/communaute/annuaire",
+							"uri": "https://beta.gouv.fr/communaute/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1511,7 +1518,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "1338"
+					"sourceid": "1556"
 				}
 			]
 		}
