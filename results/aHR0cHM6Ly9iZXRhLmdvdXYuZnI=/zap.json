@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 24 Jul 2022 01:26:17",
+	"@generated": "Sun, 31 Jul 2022 01:26:07",
 	"site":[ 
 		{
 			"@name": "https://beta.gouv.fr",
@@ -383,7 +383,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1203"
+					"sourceid": "1204"
 				},
 				{
 					"pluginid": "10017",
@@ -472,7 +472,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "1203"
+					"sourceid": "1204"
 				},
 				{
 					"pluginid": "10063",
@@ -888,7 +888,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "155"
+					"sourceid": "123"
 				},
 				{
 					"pluginid": "10021",
@@ -1190,7 +1190,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1105"
+					"sourceid": "1106"
 				},
 				{
 					"pluginid": "10109",
@@ -1581,7 +1581,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "1581"
+					"sourceid": "1427"
 				}
 			]
 		}
