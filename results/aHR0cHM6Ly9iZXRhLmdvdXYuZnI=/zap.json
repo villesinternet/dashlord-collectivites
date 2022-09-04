@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 28 Aug 2022 01:21:01",
+	"@generated": "Sun, 4 Sep 2022 01:27:11",
 	"site":[ 
 		{
 			"@name": "https://beta.gouv.fr",
@@ -383,7 +383,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1211"
+					"sourceid": "1212"
 				},
 				{
 					"pluginid": "10017",
@@ -472,7 +472,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "1211"
+					"sourceid": "1212"
 				},
 				{
 					"pluginid": "10063",
@@ -880,22 +880,15 @@
 							"param": "",
 							"attack": "",
 							"evidence": "97455880"
-						},
-						{
-							"uri": "https://beta.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "63966657"
 						}
 					],
-					"count": "44",
+					"count": "43",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>07289721, which evaluates to: 1970-03-26 08:55:21</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "149"
+					"sourceid": "157"
 				},
 				{
 					"pluginid": "10021",
@@ -1197,7 +1190,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1112"
+					"sourceid": "1113"
 				},
 				{
 					"pluginid": "10109",
@@ -1588,7 +1581,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "1250"
+					"sourceid": "1251"
 				}
 			]
 		}
