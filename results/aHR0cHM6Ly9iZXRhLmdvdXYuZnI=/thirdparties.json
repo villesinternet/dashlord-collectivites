@@ -6,7 +6,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1662861729,
+      "expires": 1663466689,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -18,10 +18,10 @@
     },
     {
       "name": "_pk_id.21.968e",
-      "value": "98b8415f7b2db638.1662859930.",
+      "value": "16571e7f216d1644.1663464889.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1696815130,
+      "expires": 1697420089,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -35,17 +35,25 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 11 Sep 2022 01:32:08 GMT",
-    "etag": "W/\"631b602f-91f7\"",
-    "last-modified": "Fri, 09 Sep 2022 15:47:59 GMT",
+    "date": "Sun, 18 Sep 2022 01:34:48 GMT",
+    "etag": "W/\"632583e7-9210\"",
+    "last-modified": "Sat, 17 Sep 2022 08:23:03 GMT",
     "strict-transport-security": "max-age=31536000",
-    "x-request-id": "864ca9a9-bb81-4800-8511-d1f4abb356a0"
+    "x-request-id": "59aeb4be-efcb-4546-9f61-6b0488c1c265"
   },
   "endpoints": [
     {
       "hostname": "beta.gouv.fr",
-      "ip": "109.232.236.90",
+      "ip": "5.104.101.30",
       "geoip": {
+        "city": {
+          "geoname_id": 2994087,
+          "names": {
+            "en": "Meylan",
+            "ru": "Мелан",
+            "zh-CN": "梅朗"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -76,10 +84,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "accuracy_radius": 200,
+          "latitude": 45.2163,
+          "longitude": 5.7665,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "38240"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -95,7 +106,27 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071625,
+            "iso_code": "ARA",
+            "names": {
+              "en": "Auvergne-Rhone-Alpes",
+              "fr": "Auvergne-Rhône-Alpes"
+            }
+          },
+          {
+            "geoname_id": 3012715,
+            "iso_code": "38",
+            "names": {
+              "de": "Isère",
+              "en": "Isère",
+              "es": "Isere",
+              "fr": "Isère"
+            }
+          }
+        ]
       }
     }
   ]
