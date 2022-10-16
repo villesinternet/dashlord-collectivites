@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 9 Oct 2022 01:27:49",
+	"@generated": "Sun, 16 Oct 2022 01:41:13",
 	"site":[ 
 		{
 			"@name": "https://beta-gouv-fr-budget.netlify.app",
@@ -32,7 +32,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "2737"
+					"sourceid": "2316"
 				}
 			]
 		},
@@ -61,13 +61,6 @@
 						},
 						{
 							"uri": "https://beta.gouv.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form method=\"post\" target=\"_blank\" action=\"https://981c5932.sibforms.com/serve/MUIEAED7q5La6zVwcMrAI5cwJB2EZmeOZVHfadIeHA7u9YyGUb9FB0MqprJ1A4DbWnpORGiPSZA4yxdpLFnWbjSvsFFgYNTtd7A54LhPxK3Zg2jaB_qK-b5Sm6aZ2M6kV1nO2mpJW0KcFGIMb5KbirWUxg8CJsQJUp_AJ6ARN5PSdFNxQpzVAPXKMNs1Z7n9lgK9bMoL9fFVP_Wx\" id=\"newsletter\">"
-						},
-						{
-							"uri": "https://beta.gouv.fr/animation/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -124,6 +117,13 @@
 						},
 						{
 							"uri": "https://beta.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form method=\"post\" target=\"_blank\" action=\"https://981c5932.sibforms.com/serve/MUIEAED7q5La6zVwcMrAI5cwJB2EZmeOZVHfadIeHA7u9YyGUb9FB0MqprJ1A4DbWnpORGiPSZA4yxdpLFnWbjSvsFFgYNTtd7A54LhPxK3Zg2jaB_qK-b5Sm6aZ2M6kV1nO2mpJW0KcFGIMb5KbirWUxg8CJsQJUp_AJ6ARN5PSdFNxQpzVAPXKMNs1Z7n9lgK9bMoL9fFVP_Wx\" id=\"newsletter\">"
+						},
+						{
+							"uri": "https://beta.gouv.fr/startups/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -163,13 +163,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/animation/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://beta.gouv.fr/approche",
 							"method": "GET",
 							"param": "",
@@ -220,6 +213,13 @@
 						},
 						{
 							"uri": "https://beta.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://beta.gouv.fr/startups/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -331,32 +331,6 @@
 					"sourceid": "1"
 				},
 				{
-					"pluginid": "10099",
-					"alertRef": "10099",
-					"alert": "Source Code Disclosure - Perl",
-					"name": "Source Code Disclosure - Perl",
-					"riskcode": "2",
-					"confidence": "2",
-					"riskdesc": "Medium (Medium)",
-					"desc": "<p>Application Source Code was disclosed by the web server - Perl</p>",
-					"instances":[ 
-						{
-							"uri": "https://beta.gouv.fr/content/docs/rapportannuel.pdf",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "$#fGIEh"
-						}
-					],
-					"count": "1",
-					"solution": "<p>Ensure that application Source Code is not available with alternative extensions, and ensure that source code is not present within other files or data deployed to the web server, or served by the web server. </p>",
-					"otherinfo": "<p>$#fGIEh</p>",
-					"reference": "<p>http://blogs.wsj.com/cio/2013/10/08/adobe-source-code-leak-is-bad-news-for-u-s-government/</p>",
-					"cweid": "540",
-					"wascid": "13",
-					"sourceid": "2732"
-				},
-				{
 					"pluginid": "90003",
 					"alertRef": "90003",
 					"alert": "Sub Resource Integrity Attribute Missing",
@@ -443,7 +417,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1230"
+					"sourceid": "964"
 				},
 				{
 					"pluginid": "10017",
@@ -532,7 +506,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "1230"
+					"sourceid": "964"
 				},
 				{
 					"pluginid": "10063",
@@ -553,13 +527,6 @@
 						},
 						{
 							"uri": "https://beta.gouv.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://beta.gouv.fr/animation/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -616,6 +583,13 @@
 						},
 						{
 							"uri": "https://beta.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://beta.gouv.fr/startups/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -696,7 +670,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "160"
+					"sourceid": "184"
 				},
 				{
 					"pluginid": "10021",
@@ -819,13 +793,6 @@
 							"evidence": "R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 						},
 						{
-							"uri": "https://beta.gouv.fr/animation/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "com/profile_images/1226891323132841991/Z42OxI0v_400x400"
-						},
-						{
 							"uri": "https://beta.gouv.fr/approche",
 							"method": "GET",
 							"param": "",
@@ -880,6 +847,13 @@
 							"param": "",
 							"attack": "",
 							"evidence": "com/serve/MUIEAED7q5La6zVwcMrAI5cwJB2EZmeOZVHfadIeHA7u9YyGUb9FB0MqprJ1A4DbWnpORGiPSZA4yxdpLFnWbjSvsFFgYNTtd7A54LhPxK3Zg2jaB_qK-b5Sm6aZ2M6kV1nO2mpJW0KcFGIMb5KbirWUxg8CJsQJUp_AJ6ARN5PSdFNxQpzVAPXKMNs1Z7n9lgK9bMoL9fFVP_Wx"
+						},
+						{
+							"uri": "https://beta.gouv.fr/startups/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2Fle-rapport-des-1000-premiers-jours-une-commission-d-experts-a-l-appui"
 						}
 					],
 					"count": "11",
@@ -906,13 +880,6 @@
 							"param": "",
 							"attack": "",
 							"evidence": "DB"
-						},
-						{
-							"uri": "https://beta.gouv.fr/assets/additional/js/search-team.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select"
 						},
 						{
 							"uri": "https://beta.gouv.fr/assets/gouvfr/dsfr.module.min.js",
@@ -992,13 +959,13 @@
 							"evidence": "TODO"
 						}
 					],
-					"count": "13",
+					"count": "12",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
 					"otherinfo": "<p>The following pattern was used: \\bDB\\b and was detected in the element starting with: \"<script></p><p>    var authorsteam = [</p><p>        </p><p>            { \"id\"        : \"/authors/matthieu.faugere\",</p><p>                \"fullname\": \"\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "160"
+					"sourceid": "184"
 				},
 				{
 					"pluginid": "10109",
@@ -1019,13 +986,6 @@
 						},
 						{
 							"uri": "https://beta.gouv.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a class=\"fr-nav__link\" href=\"/approche\" target=\"_self\">D\u00E9couvrir le programme</a>"
-						},
-						{
-							"uri": "https://beta.gouv.fr/animation/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1082,6 +1042,13 @@
 						},
 						{
 							"uri": "https://beta.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a class=\"fr-nav__link\" href=\"/approche\" target=\"_self\">D\u00E9couvrir le programme</a>"
+						},
+						{
+							"uri": "https://beta.gouv.fr/startups/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1217,13 +1184,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/animation/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://beta.gouv.fr/approche",
 							"method": "GET",
 							"param": "",
@@ -1274,6 +1234,13 @@
 						},
 						{
 							"uri": "https://beta.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://beta.gouv.fr/startups/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1389,7 +1356,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "1315"
+					"sourceid": "1065"
 				}
 			]
 		}
