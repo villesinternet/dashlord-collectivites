@@ -6,7 +6,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1675561680,
+      "expires": 1676166017,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -18,10 +18,10 @@
     },
     {
       "name": "_pk_id.21.968e",
-      "value": "99cced1196e028c3.1675559880.",
+      "value": "7a8beb25f62a108a.1676164217.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1709515080,
+      "expires": 1710119417,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -35,23 +35,17 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 05 Feb 2023 01:17:58 GMT",
-    "etag": "W/\"63dd1c8c-9364\"",
-    "last-modified": "Fri, 03 Feb 2023 14:39:08 GMT",
+    "date": "Sun, 12 Feb 2023 01:10:16 GMT",
+    "etag": "W/\"63e7bf38-93ac\"",
+    "last-modified": "Sat, 11 Feb 2023 16:15:52 GMT",
     "strict-transport-security": "max-age=31536000",
-    "x-request-id": "edb0f38b-ea04-4a05-a583-448a96c4da19"
+    "x-request-id": "6bedf513-24e0-436e-90e8-3801b79842cc"
   },
   "endpoints": [
     {
       "hostname": "beta.gouv.fr",
-      "ip": "5.104.101.30",
+      "ip": "109.232.236.90",
       "geoip": {
-        "city": {
-          "geoname_id": 3029824,
-          "names": {
-            "en": "Bruay-sur-l'Escaut"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -83,12 +77,9 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 50.3971,
-          "longitude": 3.5523,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "59860"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -104,27 +95,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071624,
-            "iso_code": "HDF",
-            "names": {
-              "en": "Hauts-de-France",
-              "fr": "Hauts-de-France"
-            }
-          },
-          {
-            "geoname_id": 2990129,
-            "iso_code": "59",
-            "names": {
-              "de": "Nord",
-              "en": "North",
-              "es": "Norte",
-              "fr": "Nord"
-            }
-          }
-        ]
+        }
       }
     }
   ]
