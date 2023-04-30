@@ -6,7 +6,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1682214039,
+      "expires": 1682818687,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -18,10 +18,10 @@
     },
     {
       "name": "_pk_id.1.968e",
-      "value": "fbc8758826b80fe7.1682212240.",
+      "value": "eb67b4377b59c33b.1682816887.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1716167440,
+      "expires": 1716772087,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -35,17 +35,23 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 23 Apr 2023 01:10:38 GMT",
-    "etag": "W/\"644319d0-97b2\"",
-    "last-modified": "Fri, 21 Apr 2023 23:18:40 GMT",
+    "date": "Sun, 30 Apr 2023 01:08:06 GMT",
+    "etag": "W/\"644be01d-97d6\"",
+    "last-modified": "Fri, 28 Apr 2023 15:02:53 GMT",
     "strict-transport-security": "max-age=31536000",
-    "x-request-id": "2af805f8-ec4d-424a-bb4c-f40d5402595b"
+    "x-request-id": "3acb9c82-c661-4690-ab1b-dcc9655d020a"
   },
   "endpoints": [
     {
       "hostname": "beta.gouv.fr",
-      "ip": "109.232.236.90",
+      "ip": "5.104.101.30",
       "geoip": {
+        "city": {
+          "geoname_id": 3015162,
+          "names": {
+            "en": "Grandes Sables"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -77,9 +83,12 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "latitude": 45.0978,
+          "longitude": 6.0042,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "38114"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -95,7 +104,27 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071625,
+            "iso_code": "ARA",
+            "names": {
+              "en": "Auvergne-Rhone-Alpes",
+              "fr": "Auvergne-Rhône-Alpes"
+            }
+          },
+          {
+            "geoname_id": 3012715,
+            "iso_code": "38",
+            "names": {
+              "de": "Isère",
+              "en": "Isère",
+              "es": "Isere",
+              "fr": "Isère"
+            }
+          }
+        ]
       }
     }
   ]
