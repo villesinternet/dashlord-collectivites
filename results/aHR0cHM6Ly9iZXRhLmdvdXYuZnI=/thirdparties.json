@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1.968e",
-      "value": "b1425928f6dff64a.1688865882.",
+      "value": "ffe2eed330dd4665.1689471026.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1722821082,
+      "expires": 1723426226,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -21,7 +21,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1688867682,
+      "expires": 1689472826,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -36,7 +36,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1688867682,
+      "expires": 1689472826,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -48,10 +48,10 @@
     },
     {
       "name": "_pk_id.21.968e",
-      "value": "6f47ed36f8185677.1688865882.",
+      "value": "d91582a528b20db8.1689471026.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1722821082,
+      "expires": 1723426226,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -65,23 +65,17 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 09 Jul 2023 01:24:41 GMT",
-    "etag": "W/\"64a8008f-97a8\"",
-    "last-modified": "Fri, 07 Jul 2023 12:09:51 GMT",
+    "date": "Sun, 16 Jul 2023 01:30:25 GMT",
+    "etag": "W/\"64b02e61-97cc\"",
+    "last-modified": "Thu, 13 Jul 2023 17:03:29 GMT",
     "strict-transport-security": "max-age=31536000",
-    "x-request-id": "43f7f230-e1d1-4487-afe8-2c3c21e00309"
+    "x-request-id": "01f4177d-05d6-45e9-8187-a276c0e43141"
   },
   "endpoints": [
     {
       "hostname": "beta.gouv.fr",
       "ip": "5.104.101.30",
       "geoip": {
-        "city": {
-          "geoname_id": 3012262,
-          "names": {
-            "en": "Jonzieux"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -113,12 +107,9 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 45.3122,
-          "longitude": 4.3591,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "42660"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -134,27 +125,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071625,
-            "iso_code": "ARA",
-            "names": {
-              "en": "Auvergne-Rhone-Alpes",
-              "fr": "Auvergne-Rhône-Alpes"
-            }
-          },
-          {
-            "geoname_id": 2997870,
-            "iso_code": "42",
-            "names": {
-              "de": "Loire",
-              "en": "Loire",
-              "es": "Loira",
-              "fr": "Loire"
-            }
-          }
-        ]
+        }
       }
     }
   ]
