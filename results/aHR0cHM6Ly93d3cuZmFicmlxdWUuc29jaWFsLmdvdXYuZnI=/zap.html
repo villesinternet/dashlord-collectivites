@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 13 Aug 2023 00:44:32
+		Generated on Sun, 20 Aug 2023 00:45:03
 	</h3>
 
 	<h3>
@@ -200,12 +200,12 @@ td {
 			<tr>
 				<td><a href="#10055">CSP: Wildcard Directive</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">6</td>
+				<td align="center">5</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: style-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">6</td>
+				<td align="center">5</td>
 			</tr>
 			<tr>
 				<td><a href="#10003">Vulnerable JS Library</a></td>
@@ -235,7 +235,7 @@ td {
 			<tr>
 				<td><a href="#10015">Re-examine Cache-control Directives</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">11</td>
+				<td align="center">12</td>
 			</tr>
 			<tr>
 				<td><a href="#90005">Sec-Fetch-Dest Header is Missing</a></td>
@@ -312,6 +312,14 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+frame-ancestors, form-action
+
+The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -337,6 +345,14 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+frame-ancestors, form-action
+
+The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
 					</tr>
 				
 					<tr>
@@ -364,31 +380,13 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/idees/">https://www.fabrique.social.gouv.fr/idees/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Content-Security-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+frame-ancestors, form-action
+
+The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
 					</tr>
 				
 					<tr>
@@ -416,6 +414,14 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+frame-ancestors, form-action
+
+The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -442,10 +448,18 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+frame-ancestors, form-action
+
+The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
+					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">6</td>
+					<td width="80%">5</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -536,6 +550,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -561,6 +580,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
 					</tr>
 				
 					<tr>
@@ -588,31 +612,10 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/idees/">https://www.fabrique.social.gouv.fr/idees/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Content-Security-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
 					</tr>
 				
 					<tr>
@@ -640,6 +643,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -666,10 +674,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">default-src &#39;none&#39;; connect-src &#39;self&#39; https://*.gouv.fr; font-src &#39;self&#39;; img-src &#39;self&#39;; prefetch-src &#39;self&#39; https://*.gouv.fr; script-src &#39;self&#39; https://*.gouv.fr; frame-src &#39;self&#39; https://*.gouv.fr; style-src &#39;self&#39; &#39;unsafe-inline&#39;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
+					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">6</td>
+					<td width="80%">5</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -760,6 +773,12 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">document.getElementById(&quot;__NEXT_DATA__&quot;).textContent);window.__NEXT_DATA__=j;t.version=&quot;11.1.3&quot;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">CVE-2022-23646
+</td>
+					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
@@ -839,6 +858,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -863,6 +887,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -891,6 +920,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -915,6 +949,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -943,6 +982,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -967,6 +1011,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -995,6 +1044,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1019,6 +1073,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -1047,6 +1106,42 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/nata/">https://www.fabrique.social.gouv.fr/startups/nata/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1073,30 +1168,9 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/reva/">https://www.fabrique.social.gouv.fr/startups/reva/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -1190,6 +1264,12 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">BlocChiffres__BlocChiffre-sc-1k9etel-0</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Z
+�~����e������{��Y=zץ�</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1215,6 +1295,12 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">BlocChiffres__BlocChiffre-sc-1k9etel-0</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Z
+�~����e������{��Y=zץ�</td>
 					</tr>
 				
 					<tr>
@@ -1242,6 +1328,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�z��5��j��W��{Z�w���&gt;sF��</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1267,6 +1358,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�z��5��j��W��{Z�w���&gt;sF��</td>
 					</tr>
 				
 					<tr>
@@ -1294,6 +1390,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�z��5��j��W��{Z�w���&gt;sF��</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1319,6 +1420,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�z��5��j��W��{Z�w���&gt;sF��</td>
 					</tr>
 				
 					<tr>
@@ -1346,6 +1452,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�z��5��j��W��{Z�w���&gt;sF��</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1371,6 +1482,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�z��5��j��W��{Z�w���&gt;sF��</td>
 					</tr>
 				
 					<tr>
@@ -1398,6 +1514,42 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�z��5��j��W��{Z�w���&gt;sF��</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/nata/">https://www.fabrique.social.gouv.fr/startups/nata/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�z��5��j��W��{Z�w���&gt;sF��</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1424,31 +1576,10 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/reva/">https://www.fabrique.social.gouv.fr/startups/reva/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Header__NavbarTitleContainer-sc-c0bqvw-1</td>
+							class="indent2">Other Info</td>
+						<td width="80%">�z��5��j��W��{Z�w���&gt;sF��</td>
 					</tr>
 				
 				<tr>
@@ -1529,6 +1660,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;0BrUCvD2OmhGh28VOj&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1554,6 +1690,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;0BrUCvD2OmhGh28VOj&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
@@ -1581,6 +1722,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/actus&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;0BrUCvD2OmhGh&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1606,6 +1752,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/idees&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;0BrUCvD2OmhGh&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
@@ -1633,6 +1784,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{&quot;members&quot;:[{&quot;id&quot;:&quot;maxime.golfier&quot;,&quot;name&quot;:&quot;Maxime Golfi&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1658,6 +1814,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/404&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;0BrUCvD2OmhGh28&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
@@ -1685,6 +1846,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/404&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;0BrUCvD2OmhGh28&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1710,6 +1876,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/startups/bpco&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;0BrUC&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
@@ -1737,6 +1908,42 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/startups/enfantsduspectacle&quot;,&quot;query&quot;:{},&quot;b&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/nata/">https://www.fabrique.social.gouv.fr/startups/nata/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">query</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/startups/nata&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;0BrUC&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1763,31 +1970,10 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">query</td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/reva/">https://www.fabrique.social.gouv.fr/startups/reva/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">query</td>
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bQUERY\b and was detected in the element starting with: &quot;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{}},&quot;page&quot;:&quot;/startups/ressourcerie&quot;,&quot;query&quot;:{},&quot;buildId&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 				<tr>
@@ -1865,6 +2051,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1890,6 +2081,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
 					</tr>
 				
 					<tr>
@@ -1917,6 +2113,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1942,6 +2143,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
 					</tr>
 				
 					<tr>
@@ -1969,6 +2175,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1994,6 +2205,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
 					</tr>
 				
 					<tr>
@@ -2021,6 +2237,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2046,6 +2267,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
 					</tr>
 				
 					<tr>
@@ -2073,6 +2299,42 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/nata/">https://www.fabrique.social.gouv.fr/startups/nata/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2099,31 +2361,10 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/reva/">https://www.fabrique.social.gouv.fr/startups/reva/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
 					</tr>
 				
 				<tr>
@@ -2200,6 +2441,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2224,6 +2470,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -2252,6 +2503,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2276,6 +2532,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -2304,6 +2565,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2328,6 +2594,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -2356,6 +2627,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2380,6 +2656,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -2408,6 +2689,42 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/ozensemble/">https://www.fabrique.social.gouv.fr/startups/ozensemble/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">cache-control</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2432,6 +2749,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -2460,10 +2782,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">11</td>
+					<td width="80%">12</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -2545,6 +2872,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2569,6 +2901,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -2650,6 +2987,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2674,6 +3016,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -2755,6 +3102,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2779,6 +3131,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -2860,6 +3217,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2884,6 +3246,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -2965,6 +3332,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2990,6 +3362,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 					<tr>
@@ -3017,6 +3394,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3042,6 +3424,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 					<tr>
@@ -3069,6 +3456,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3094,6 +3486,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 					<tr>
@@ -3121,6 +3518,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3146,6 +3548,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 					<tr>
@@ -3173,6 +3580,42 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/nata/">https://www.fabrique.social.gouv.fr/startups/nata/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3199,31 +3642,10 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.fabrique.social.gouv.fr/startups/reva/">https://www.fabrique.social.gouv.fr/startups/reva/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 				<tr>
