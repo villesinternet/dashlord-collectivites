@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1.968e",
-      "value": "0bf64e63597dc10f.1697331672.",
+      "value": "94ade00964bfe97e.1697936721.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1731286872,
+      "expires": 1731891921,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -21,7 +21,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1697333472,
+      "expires": 1697938520,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -36,7 +36,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1697333472,
+      "expires": 1697938520,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -48,10 +48,10 @@
     },
     {
       "name": "_pk_id.21.968e",
-      "value": "a2bcbe9946669b89.1697331672.",
+      "value": "25759d41040b4c0c.1697936721.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1731286872,
+      "expires": 1731891921,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -65,17 +65,24 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 15 Oct 2023 01:01:11 GMT",
-    "etag": "W/\"6529477d-9880\"",
-    "last-modified": "Fri, 13 Oct 2023 13:34:53 GMT",
+    "date": "Sun, 22 Oct 2023 01:05:19 GMT",
+    "etag": "W/\"65328a9b-98c8\"",
+    "last-modified": "Fri, 20 Oct 2023 14:11:39 GMT",
     "strict-transport-security": "max-age=31536000",
-    "x-request-id": "e5f1c7f9-5bb9-4122-be85-8cf6921b18cd"
+    "x-request-id": "a9b0c69d-a73e-4faf-a1fe-e80cd5eb3e93"
   },
   "endpoints": [
     {
       "hostname": "beta.gouv.fr",
-      "ip": "109.232.236.90",
+      "ip": "5.104.101.30",
       "geoip": {
+        "city": {
+          "geoname_id": 2994043,
+          "names": {
+            "en": "Meze",
+            "zh-CN": "梅兹"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -107,9 +114,12 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "latitude": 43.4219,
+          "longitude": 3.6088,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "34140"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -125,7 +135,27 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
+            "names": {
+              "en": "Occitanie",
+              "fr": "Occitanie"
+            }
+          },
+          {
+            "geoname_id": 3013500,
+            "iso_code": "34",
+            "names": {
+              "de": "Hérault",
+              "en": "Hérault",
+              "es": "Herault",
+              "fr": "Hérault"
+            }
+          }
+        ]
       }
     }
   ]
