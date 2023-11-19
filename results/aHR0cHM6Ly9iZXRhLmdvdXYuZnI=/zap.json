@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 12 Nov 2023 01:08:40",
+	"@generated": "Sun, 19 Nov 2023 01:03:09",
 	"site":[ 
 		{
 			"@name": "https://beta-gouv-fr-budget.netlify.app",
@@ -34,7 +34,7 @@
 					"reference": "<p>https://github.com/advisories/GHSA-c59h-r6p8-q9wc</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "2681"
+					"sourceid": "2690"
 				},
 				{
 					"pluginid": "10050",
@@ -139,7 +139,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 0",
+							"evidence": "Age: 1",
 							"otherinfo": "The presence of the 'Age' header indicates that that a HTTP/1.1 compliant caching server is in use."
 						}
 					],
@@ -149,7 +149,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "2503"
+					"sourceid": "2482"
 				}
 			]
 		},
@@ -256,7 +256,7 @@
 					"reference": "<p>http://projects.webappsec.org/Cross-Site-Request-Forgery</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10038",
@@ -462,9 +462,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://beta.gouv.fr/startups/transport.html",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
@@ -497,7 +505,7 @@
 					"reference": "<p>https://www.wsj.com/articles/BL-CIOB-2999</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "2414"
+					"sourceid": "2348"
 				},
 				{
 					"pluginid": "90003",
@@ -612,7 +620,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "888"
+					"sourceid": "850"
 				},
 				{
 					"pluginid": "10017",
@@ -727,7 +735,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "888"
+					"sourceid": "850"
 				},
 				{
 					"pluginid": "10063",
@@ -887,38 +895,6 @@
 							"otherinfo": "1636588800, which evaluates to: 2021-11-11 00:00:00"
 						},
 						{
-							"uri": "https://beta.gouv.fr/startups/aides-territoires.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1636588800",
-							"otherinfo": "1636588800, which evaluates to: 2021-11-11 00:00:00"
-						},
-						{
-							"uri": "https://beta.gouv.fr/startups/chauffage-urbain.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1636588800",
-							"otherinfo": "1636588800, which evaluates to: 2021-11-11 00:00:00"
-						},
-						{
-							"uri": "https://beta.gouv.fr/startups/jeveuxaider.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1636588800",
-							"otherinfo": "1636588800, which evaluates to: 2021-11-11 00:00:00"
-						},
-						{
-							"uri": "https://beta.gouv.fr/startups/nosgestesclimat.html",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1636588800",
-							"otherinfo": "1636588800, which evaluates to: 2021-11-11 00:00:00"
-						},
-						{
 							"uri": "https://beta.gouv.fr/startups/place-des-entreprises.html",
 							"method": "GET",
 							"param": "",
@@ -935,13 +911,13 @@
 							"otherinfo": "1636588800, which evaluates to: 2021-11-11 00:00:00"
 						}
 					],
-					"count": "11",
+					"count": "7",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>1538399033, which evaluates to: 2018-10-01 13:03:53</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "985"
+					"sourceid": "806"
 				},
 				{
 					"pluginid": "10021",
@@ -1168,28 +1144,28 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://beta.gouv.fr/assets/additional/js/stats.js",
+							"uri": "https://beta.gouv.fr/assets/additional/js/community-chart.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "admin",
-							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in the element starting with: \"        if (!done && mission.status === \"admin\") {\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in the element starting with: \"          data: datasets.admin,\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://beta.gouv.fr/assets/additional/js/stats.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "db",
-							"otherinfo": "The following pattern was used: \\bDB\\b and was detected 8 times, the first in the element starting with: \"var db = {};\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://beta.gouv.fr/assets/additional/js/stats.js",
+							"uri": "https://beta.gouv.fr/assets/additional/js/community-chart.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "from",
-							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 6 times, the first in the element starting with: \"  var obj = startup.attributes[item.from].find(function (p) {\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"  // for each datasets we compute the value for each new points by adding all values from previous date\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"uri": "https://beta.gouv.fr/assets/additional/js/community-chart.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "where",
+							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in the element starting with: \"   * will get an array of points in x,y where x is the date, y the value.\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://beta.gouv.fr/assets/gouvfr/dsfr.module.min.js",
@@ -1213,7 +1189,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "admin",
-							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in the element starting with: \"<script type=\"text/javascript\">\n(function() {\n    window.buildDate = '2023-11-11';\n    window.data = {\"employer\":{\"admin\":[{\"dat\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in the element starting with: \"<script type=\"text/javascript\">\n(function() {\n    window.buildDate = '2023-11-17';\n    window.data = {\"employer\":{\"admin\":[{\"dat\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://beta.gouv.fr/communaute/",
@@ -1221,7 +1197,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "admin",
-							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in the element starting with: \"<script type=\"text/javascript\">\n(function() {\n    window.buildDate = '2023-11-11';\n    window.data = {\"employer\":{\"admin\":[{\"dat\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bADMIN\\b and was detected in the element starting with: \"<script type=\"text/javascript\">\n(function() {\n    window.buildDate = '2023-11-17';\n    window.data = {\"employer\":{\"admin\":[{\"dat\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://beta.gouv.fr/communaute/annuaire",
@@ -1274,11 +1250,11 @@
 					],
 					"count": "13",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bADMIN\\b and was detected in the element starting with: \"        if (!done && mission.status === \"admin\") {\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bADMIN\\b and was detected in the element starting with: \"          data: datasets.admin,\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "2229"
+					"sourceid": "1545"
 				},
 				{
 					"pluginid": "10109",
@@ -1385,7 +1361,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -1470,7 +1446,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/startups/mon-entreprise.html",
+							"uri": "https://beta.gouv.fr/startups/pix.html",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1478,7 +1454,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/startups/pix.html",
+							"uri": "https://beta.gouv.fr/startups/transport.html",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1513,7 +1489,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/",
+							"uri": "https://beta.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1521,7 +1497,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/devenir-intrapreneur",
+							"uri": "https://beta.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1556,7 +1532,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/",
+							"uri": "https://beta.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1564,7 +1540,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/devenir-intrapreneur",
+							"uri": "https://beta.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1599,7 +1575,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/",
+							"uri": "https://beta.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1607,7 +1583,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/devenir-intrapreneur",
+							"uri": "https://beta.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1642,7 +1618,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/",
+							"uri": "https://beta.gouv.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1650,7 +1626,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://beta.gouv.fr/devenir-intrapreneur",
+							"uri": "https://beta.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1814,7 +1790,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "2658"
+					"sourceid": "2621"
 				}
 			]
 		}
