@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 3 Mar 2024 00:47:43",
+	"@generated": "Sun, 10 Mar 2024 00:48:25",
 	"site":[ 
 		{
 			"@name": "https://www.fabrique.social.gouv.fr",
@@ -50,7 +50,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10055",
@@ -93,7 +93,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10003",
@@ -163,7 +163,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10063",
@@ -200,22 +200,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/declaration-accessibilite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.fabrique.social.gouv.fr/feed.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/idees/",
 							"method": "GET",
 							"param": "",
@@ -240,7 +224,23 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/bpco/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.fabrique.social.gouv.fr/startups/enfantsduspectacle/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/nata/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -270,7 +270,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10094",
@@ -307,22 +307,6 @@
 							"otherinfo": "\\x001d\uFFFDz\uFFFD\uFFFD5\uFFFD\uFFFDj\uFFFD\uFFFDW\uFFFD\uFFFD{Z\uFFFDw\uFFFD\uFFFD\uFFFD>sF\uFFFD\\x000f\uFFFD"
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/declaration-accessibilite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Header__NavbarTitleContainer-sc-c0bqvw-1",
-							"otherinfo": "\\x001d\uFFFDz\uFFFD\uFFFD5\uFFFD\uFFFDj\uFFFD\uFFFDW\uFFFD\uFFFD{Z\uFFFDw\uFFFD\uFFFD\uFFFD>sF\uFFFD\\x000f\uFFFD"
-						},
-						{
-							"uri": "https://www.fabrique.social.gouv.fr/feed.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Header__NavbarTitleContainer-sc-c0bqvw-1",
-							"otherinfo": "\\x001d\uFFFDz\uFFFD\uFFFD5\uFFFD\uFFFDj\uFFFD\uFFFDW\uFFFD\uFFFD{Z\uFFFDw\uFFFD\uFFFD\uFFFD>sF\uFFFD\\x000f\uFFFD"
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/idees/",
 							"method": "GET",
 							"param": "",
@@ -347,7 +331,23 @@
 							"otherinfo": "\\x001d\uFFFDz\uFFFD\uFFFD5\uFFFD\uFFFDj\uFFFD\uFFFDW\uFFFD\uFFFD{Z\uFFFDw\uFFFD\uFFFD\uFFFD>sF\uFFFD\\x000f\uFFFD"
 						},
 						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/bpco/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Header__NavbarTitleContainer-sc-c0bqvw-1",
+							"otherinfo": "\\x001d\uFFFDz\uFFFD\uFFFD5\uFFFD\uFFFDj\uFFFD\uFFFDW\uFFFD\uFFFD{Z\uFFFDw\uFFFD\uFFFD\uFFFD>sF\uFFFD\\x000f\uFFFD"
+						},
+						{
 							"uri": "https://www.fabrique.social.gouv.fr/startups/enfantsduspectacle/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Header__NavbarTitleContainer-sc-c0bqvw-1",
+							"otherinfo": "\\x001d\uFFFDz\uFFFD\uFFFD5\uFFFD\uFFFDj\uFFFD\uFFFDW\uFFFD\uFFFD{Z\uFFFDw\uFFFD\uFFFD\uFFFD>sF\uFFFD\\x000f\uFFFD"
+						},
+						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/nata/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -377,7 +377,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10027",
@@ -414,28 +414,20 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/actus\",\"query\":{},\"buildId\":\"l2mGp7zqU4DSl\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/declaration-accessibilite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/declaration-accessibilite\",\"query\":{},\"bui\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.fabrique.social.gouv.fr/feed.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/404\",\"query\":{},\"buildId\":\"l2mGp7zqU4DSlQh\", see evidence field for the suspicious comment/snippet."
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/idees/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "query",
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/idees\",\"query\":{},\"buildId\":\"l2mGp7zqU4DSl\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"uri": "https://www.fabrique.social.gouv.fr/members/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"members\":[{\"id\":\"lucie.delorme\",\"name\":\"Lucie Delorme\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
@@ -454,12 +446,28 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/404\",\"query\":{},\"buildId\":\"l2mGp7zqU4DSlQh\", see evidence field for the suspicious comment/snippet."
 						},
 						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/bpco/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/startups/bpco\",\"query\":{},\"buildId\":\"l2mGp\", see evidence field for the suspicious comment/snippet."
+						},
+						{
 							"uri": "https://www.fabrique.social.gouv.fr/startups/enfantsduspectacle/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "query",
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/startups/enfantsduspectacle\",\"query\":{},\"b\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/nata/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/startups/nata\",\"query\":{},\"buildId\":\"l2mGp\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://www.fabrique.social.gouv.fr/startups/ressourcerie/",
@@ -478,13 +486,13 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/startups/reva\",\"query\":{},\"buildId\":\"l2mGp\", see evidence field for the suspicious comment/snippet."
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
 					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{}},\"page\":\"/\",\"query\":{},\"buildId\":\"l2mGp7zqU4DSlQhhgA\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10109",
@@ -521,22 +529,6 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/declaration-accessibilite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<noscript data-n-css=\"\"></noscript>",
-							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
-						},
-						{
-							"uri": "https://www.fabrique.social.gouv.fr/feed.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<noscript data-n-css=\"\"></noscript>",
-							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/idees/",
 							"method": "GET",
 							"param": "",
@@ -561,7 +553,23 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/bpco/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<noscript data-n-css=\"\"></noscript>",
+							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
+						},
+						{
 							"uri": "https://www.fabrique.social.gouv.fr/startups/enfantsduspectacle/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<noscript data-n-css=\"\"></noscript>",
+							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
+						},
+						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/nata/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -591,7 +599,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10015",
@@ -628,23 +636,15 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/declaration-accessibilite",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.fabrique.social.gouv.fr/faq/",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/idees/",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.fabrique.social.gouv.fr/members/",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -676,6 +676,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/nata/",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.fabrique.social.gouv.fr/startups/ressourcerie/",
 							"method": "GET",
 							"param": "cache-control",
@@ -698,7 +706,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -719,14 +727,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -735,13 +735,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -762,14 +762,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -778,13 +770,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -805,14 +797,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -821,13 +805,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -848,14 +832,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -864,13 +840,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -907,22 +883,6 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.fabrique.social.gouv.fr/declaration-accessibilite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://www.fabrique.social.gouv.fr/feed.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
 							"uri": "https://www.fabrique.social.gouv.fr/idees/",
 							"method": "GET",
 							"param": "",
@@ -947,7 +907,23 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/bpco/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
 							"uri": "https://www.fabrique.social.gouv.fr/startups/enfantsduspectacle/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.fabrique.social.gouv.fr/startups/nata/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -977,7 +953,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				}
 			]
 		}
