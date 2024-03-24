@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1.968e",
-      "value": "be9414ecc9861131.1710637649.",
+      "value": "ad3bd0a32b538eb4.1711242050.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1744592849,
+      "expires": 1745197250,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -21,7 +21,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1710639449,
+      "expires": 1711243850,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -36,7 +36,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1710639449,
+      "expires": 1711243850,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -48,10 +48,10 @@
     },
     {
       "name": "_pk_id.21.968e",
-      "value": "e11032b04a095eea.1710637649.",
+      "value": "572f81b9f110ceed.1711242050.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1744592849,
+      "expires": 1745197250,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -65,17 +65,23 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 17 Mar 2024 01:07:28 GMT",
-    "etag": "W/\"65f588f4-9bc7\"",
-    "last-modified": "Sat, 16 Mar 2024 11:56:36 GMT",
+    "date": "Sun, 24 Mar 2024 01:00:49 GMT",
+    "etag": "W/\"65ff1d92-9bee\"",
+    "last-modified": "Sat, 23 Mar 2024 18:21:06 GMT",
     "strict-transport-security": "max-age=31536000",
-    "x-request-id": "d0e3eb85-4042-4a73-9204-773f3ed06f91"
+    "x-request-id": "b6116154-9d18-420f-9667-01d342ca9870"
   },
   "endpoints": [
     {
       "hostname": "beta.gouv.fr",
-      "ip": "109.232.236.90",
+      "ip": "5.104.101.30",
       "geoip": {
+        "city": {
+          "geoname_id": 2977356,
+          "names": {
+            "en": "Saint-Priest"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -106,10 +112,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "accuracy_radius": 200,
+          "latitude": 45.7088,
+          "longitude": 4.9303,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "69800"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -125,7 +134,36 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071625,
+            "iso_code": "ARA",
+            "names": {
+              "de": "Auvergne-Rhône-Alpes",
+              "en": "Auvergne-Rhône-Alpes",
+              "es": "Auvernia-Ródano-Alpes",
+              "fr": "Auvergne-Rhône-Alpes",
+              "ja": "オーヴェルニュ＝ローヌ＝アルプ地域圏",
+              "pt-BR": "Auvérnia-Ródano-Alpes",
+              "ru": "Овернь — Рона — Альпы"
+            }
+          },
+          {
+            "geoname_id": 2987410,
+            "iso_code": "69",
+            "names": {
+              "de": "Rhône",
+              "en": "Rhône",
+              "es": "Ródano",
+              "fr": "Rhône",
+              "ja": "ローヌ県",
+              "pt-BR": "Ródano",
+              "ru": "Рона",
+              "zh-CN": "罗讷省"
+            }
+          }
+        ]
       }
     }
   ]
