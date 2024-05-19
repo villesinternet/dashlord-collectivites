@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun May 12 00:55:16 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.fabrique.social.gouv.fr
+# Nmap 7.92 scan initiated Sun May 19 00:53:36 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.fabrique.social.gouv.fr
 Host: 57.128.91.43 ()	Status: Up
 Host: 57.128.91.43 ()	Ports: 80/open/tcp//http//nginx (reverse proxy)/, 443/open/tcp//ssl|http//nginx (reverse proxy)/	Ignored State: closed (998)
-# Nmap done at Sun May 12 00:55:45 2024 -- 1 IP address (1 host up) scanned in 29.45 seconds
+# Nmap done at Sun May 19 00:54:02 2024 -- 1 IP address (1 host up) scanned in 25.73 seconds
