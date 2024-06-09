@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1.968e",
-      "value": "5bdd6ef7401b6945.1717289966.",
+      "value": "e99332cb6bee6110.1717894951.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1751245166,
+      "expires": 1751850151,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -21,7 +21,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1717291765,
+      "expires": 1717896750,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -36,7 +36,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1717291765,
+      "expires": 1717896750,
       "size": 16,
       "httpOnly": false,
       "secure": false,
@@ -48,10 +48,10 @@
     },
     {
       "name": "_pk_id.21.968e",
-      "value": "775dfa0192602d81.1717289966.",
+      "value": "d832f3d37ac77732.1717894951.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1751245166,
+      "expires": 1751850151,
       "size": 42,
       "httpOnly": false,
       "secure": false,
@@ -65,23 +65,17 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 02 Jun 2024 00:59:25 GMT",
-    "etag": "W/\"665af32f-9fa7\"",
-    "last-modified": "Sat, 01 Jun 2024 10:08:47 GMT",
+    "date": "Sun, 09 Jun 2024 01:02:29 GMT",
+    "etag": "W/\"6664c72f-9fa7\"",
+    "last-modified": "Sat, 08 Jun 2024 21:03:43 GMT",
     "strict-transport-security": "max-age=31536000",
-    "x-request-id": "b4d5c01e-e99c-4321-9b6f-a998dec1bcc4"
+    "x-request-id": "7c41d0df-7432-4150-b542-83a2187ce8b6"
   },
   "endpoints": [
     {
       "hostname": "beta.gouv.fr",
-      "ip": "5.104.101.30",
+      "ip": "109.232.236.90",
       "geoip": {
-        "city": {
-          "geoname_id": 3006412,
-          "names": {
-            "en": "Lasgraisses"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -112,13 +106,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 43.8239,
-          "longitude": 2.0396,
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "81300"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -134,27 +125,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071623,
-            "iso_code": "OCC",
-            "names": {
-              "en": "Occitanie",
-              "fr": "Occitanie"
-            }
-          },
-          {
-            "geoname_id": 2973362,
-            "iso_code": "81",
-            "names": {
-              "de": "Tarn",
-              "en": "Tarn",
-              "es": "Tarn",
-              "fr": "Tarn"
-            }
-          }
-        ]
+        }
       }
     }
   ]
