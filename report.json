@@ -316,14 +316,14 @@
     "http": {
       "url": "https://www.fabrique.social.gouv.fr",
       "algorithm_version": 3,
-      "end_time": "Sun, 25 Aug 2024 00:32:13 GMT",
+      "end_time": "Sun, 01 Sep 2024 00:34:58 GMT",
       "grade": "B",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
       "response_headers": {
         "Content-Security-Policy": "*",
         "Content-Type": "text/html; charset=UTF-8",
-        "Date": "Sun, 25 Aug 2024 00:32:11 GMT",
+        "Date": "Sun, 01 Sep 2024 00:34:56 GMT",
         "Link": "<https://www.fabrique.social.gouv.fr/wp-json/>; rel=\"https://api.w.org/\", <https://www.fabrique.social.gouv.fr/wp-json/wp/v2/pages/127>; rel=\"alternate\"; type=\"application/json\", <https://www.fabrique.social.gouv.fr/>; rel=shortlink",
         "Server": "nginx",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
@@ -332,9 +332,9 @@
         "X-Frame-Options": "sameorigin",
         "X-Xss-Protection": "1; mode=block"
       },
-      "scan_id": 54859763,
+      "scan_id": 55133345,
       "score": 75,
-      "start_time": "Sun, 25 Aug 2024 00:32:09 GMT",
+      "start_time": "Sun, 01 Sep 2024 00:34:53 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 1,
@@ -849,7 +849,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "OK",
-        "finding": "82 >= 30 days"
+        "finding": "75 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -1010,7 +1010,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1724547788"
+        "finding": "1725153085"
       },
       {
         "id": "HSTS_time",
@@ -1594,7 +1594,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "53"
+        "finding": "95"
       }
     ],
     "thirdparties": {
@@ -1605,7 +1605,7 @@
           "value": "1",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1724549555,
+          "expires": 1725154819,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -1617,10 +1617,10 @@
         },
         {
           "name": "_pk_id.2.6321",
-          "value": "9db782f86350664c.1724547755.",
+          "value": "0183c9164e1a000f.1725153019.",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1758502955,
+          "expires": 1759108219,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -1634,7 +1634,7 @@
       "headers": {
         "content-security-policy": "*",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 25 Aug 2024 01:02:33 GMT",
+        "date": "Sun, 01 Sep 2024 01:10:17 GMT",
         "link": "<https://www.fabrique.social.gouv.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.fabrique.social.gouv.fr/wp-json/wp/v2/pages/127>; rel=\"alternate\"; type=\"application/json\"\n<https://www.fabrique.social.gouv.fr/>; rel=shortlink",
         "server": "nginx",
         "strict-transport-security": "max-age=31536000; includeSubDomains",
@@ -2040,7 +2040,7 @@
       {
         "requestedUrl": "https://www.fabrique.social.gouv.fr/",
         "finalUrl": "https://www.fabrique.social.gouv.fr/",
-        "fetchTime": "2024-08-25T01:02:09.342Z",
+        "fetchTime": "2024-09-01T01:09:51.648Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2072,7 +2072,7 @@
             "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
             "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
             "id": "pwa",
-            "score": 0.67
+            "score": 0.5
           }
         },
         "audits": {
@@ -2082,49 +2082,51 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 21437,
+            "numericValue": 24367,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 10129,
-                  "firstMeaningfulPaint": 14446,
-                  "largestContentfulPaint": 21653,
-                  "firstCPUIdle": 14446,
-                  "interactive": 21437,
-                  "speedIndex": 11056,
+                  "firstContentfulPaint": 10241,
+                  "firstMeaningfulPaint": 14487,
+                  "largestContentfulPaint": 24804,
+                  "firstCPUIdle": 14487,
+                  "interactive": 24367,
+                  "speedIndex": 13525,
                   "estimatedInputLatency": 13,
-                  "totalBlockingTime": 67,
-                  "maxPotentialFID": 104,
-                  "cumulativeLayoutShift": 0.016787567138671876,
+                  "totalBlockingTime": 57,
+                  "maxPotentialFID": 83,
+                  "cumulativeLayoutShift": 0.03224990844726562,
                   "cumulativeLayoutShiftAllFrames": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 828090469,
+                  "observedTimeOriginTs": 579584448,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 828090469,
-                  "observedFirstPaint": 1060,
-                  "observedFirstPaintTs": 829150898,
-                  "observedFirstContentfulPaint": 1060,
-                  "observedFirstContentfulPaintTs": 829150898,
-                  "observedFirstMeaningfulPaint": 1277,
-                  "observedFirstMeaningfulPaintTs": 829367211,
-                  "observedLargestContentfulPaint": 1653,
-                  "observedLargestContentfulPaintTs": 829743162,
-                  "observedTraceEnd": 2691,
-                  "observedTraceEndTs": 830781408,
-                  "observedLoad": 1528,
-                  "observedLoadTs": 829618891,
-                  "observedDomContentLoaded": 1304,
-                  "observedDomContentLoadedTs": 829394550,
-                  "observedCumulativeLayoutShift": 0.016787567138671876,
+                  "observedNavigationStartTs": 579584448,
+                  "observedFirstPaint": 1533,
+                  "observedFirstPaintTs": 581117532,
+                  "observedFirstContentfulPaint": 1533,
+                  "observedFirstContentfulPaintTs": 581117532,
+                  "observedFirstMeaningfulPaint": 1773,
+                  "observedFirstMeaningfulPaintTs": 581357561,
+                  "observedLargestContentfulPaint": 2362,
+                  "observedLargestContentfulPaintTs": 581946869,
+                  "observedLargestContentfulPaintAllFrames": 2976,
+                  "observedLargestContentfulPaintAllFramesTs": 582560528,
+                  "observedTraceEnd": 3397,
+                  "observedTraceEndTs": 582981782,
+                  "observedLoad": 2187,
+                  "observedLoadTs": 581771073,
+                  "observedDomContentLoaded": 1717,
+                  "observedDomContentLoadedTs": 581301459,
+                  "observedCumulativeLayoutShift": 0.03224990844726562,
                   "observedCumulativeLayoutShiftAllFrames": 0,
-                  "observedFirstVisualChange": 1093,
-                  "observedFirstVisualChangeTs": 829183469,
-                  "observedLastVisualChange": 2526,
-                  "observedLastVisualChangeTs": 830616469,
-                  "observedSpeedIndex": 1326,
-                  "observedSpeedIndexTs": 829416322
+                  "observedFirstVisualChange": 1558,
+                  "observedFirstVisualChangeTs": 581142448,
+                  "observedLastVisualChange": 2942,
+                  "observedLastVisualChangeTs": 582526448,
+                  "observedSpeedIndex": 1828,
+                  "observedSpeedIndexTs": 581412243
                 },
                 {
                   "lcpInvalidated": false
@@ -2142,23 +2144,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 45,
-                  "numScripts": 10,
+                  "numRequests": 46,
+                  "numScripts": 11,
                   "numStylesheets": 6,
                   "numFonts": 4,
-                  "numTasks": 1088,
-                  "numTasksOver10ms": 11,
+                  "numTasks": 1169,
+                  "numTasksOver10ms": 14,
                   "numTasksOver25ms": 2,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 97.75999999999999,
-                  "throughput": 48065760.30014089,
-                  "maxRtt": 98.406,
-                  "maxServerLatency": 9.62299999999999,
-                  "totalByteWeight": 4820513,
-                  "totalTaskTime": 381.41699999999906,
-                  "mainDocumentTransferSize": 396713
+                  "rtt": 143.69299999999998,
+                  "throughput": 31378776.66022692,
+                  "maxRtt": 144.109,
+                  "maxServerLatency": 10.430999999999983,
+                  "totalByteWeight": 4821104,
+                  "totalTaskTime": 433.0169999999978,
+                  "mainDocumentTransferSize": 396714
                 }
               ]
             }
@@ -2200,13 +2202,32 @@
       "lighthouse_best-practicesGrade": "A",
       "lighthouse_seo": 0.92,
       "lighthouse_seoGrade": "A",
-      "lighthouse_pwa": 0.67,
-      "lighthouse_pwaGrade": "B",
+      "lighthouse_pwa": 0.5,
+      "lighthouse_pwaGrade": "D",
       "declaration-a11y": "C"
     }
   },
   {
     "404": [
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "beta.gouv.fr",
+          "port": null,
+          "hostname": "beta.gouv.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/$%7Bstartup.url%7D",
+          "path": "/$%7Bstartup.url%7D",
+          "href": "https://beta.gouv.fr/$%7Bstartup.url%7D"
+        },
+        "link": "https://beta.gouv.fr/$%7Bstartup.url%7D",
+        "line": "https://beta.gouv.fr/$%7Bstartup.url%7D",
+        "broken": true
+      },
       {
         "url": {
           "protocol": "https:",
@@ -2256,12 +2277,69 @@
           "hash": null,
           "search": null,
           "query": null,
+          "pathname": "/$%7Bincubator.url%7D",
+          "path": "/$%7Bincubator.url%7D",
+          "href": "https://beta.gouv.fr/$%7Bincubator.url%7D"
+        },
+        "link": "https://beta.gouv.fr/$%7Bincubator.url%7D",
+        "line": "https://beta.gouv.fr/$%7Bincubator.url%7D",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "beta.gouv.fr",
+          "port": null,
+          "hostname": "beta.gouv.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
           "pathname": "/startups/itou.html",
           "path": "/startups/itou.html",
           "href": "https://beta.gouv.fr/startups/itou.html"
         },
         "link": "https://beta.gouv.fr/startups/itou.html",
         "line": "https://beta.gouv.fr/startups/itou.html",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "beta.gouv.fr",
+          "port": null,
+          "hostname": "beta.gouv.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/content/docs/betagouv_presentation.pdf",
+          "path": "/content/docs/betagouv_presentation.pdf",
+          "href": "https://beta.gouv.fr/content/docs/betagouv_presentation.pdf"
+        },
+        "link": "https://beta.gouv.fr/content/docs/betagouv_presentation.pdf",
+        "line": "https://beta.gouv.fr/content/docs/betagouv_presentation.pdf",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "beta.gouv.fr",
+          "port": null,
+          "hostname": "beta.gouv.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/$%7Bpage.url%7D",
+          "path": "/$%7Bpage.url%7D",
+          "href": "https://beta.gouv.fr/$%7Bpage.url%7D"
+        },
+        "link": "https://beta.gouv.fr/$%7Bpage.url%7D",
+        "line": "https://beta.gouv.fr/$%7Bpage.url%7D",
         "broken": true
       },
       {
@@ -2307,7 +2385,7 @@
     "http": {
       "url": "https://beta.gouv.fr",
       "algorithm_version": 3,
-      "end_time": "Sun, 25 Aug 2024 00:33:46 GMT",
+      "end_time": "Sun, 01 Sep 2024 00:41:56 GMT",
       "grade": "C",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -2315,16 +2393,16 @@
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 25 Aug 2024 00:33:45 GMT",
-        "ETag": "W/\"66c78706-9d40\"",
-        "Last-Modified": "Thu, 22 Aug 2024 18:44:22 GMT",
+        "Date": "Sun, 01 Sep 2024 00:41:55 GMT",
+        "ETag": "W/\"66d17cf9-9cd1\"",
+        "Last-Modified": "Fri, 30 Aug 2024 08:04:09 GMT",
         "Strict-Transport-Security": "max-age=31536000",
         "Transfer-Encoding": "chunked",
-        "X-Request-ID": "aa2751e4-ff51-4a84-b033-f4f628b693d9"
+        "X-Request-ID": "a2bcc51a-f622-4f47-b153-3f4cc6b589e9"
       },
-      "scan_id": 54859779,
+      "scan_id": 55133539,
       "score": 50,
-      "start_time": "Sun, 25 Aug 2024 00:33:44 GMT",
+      "start_time": "Sun, 01 Sep 2024 00:41:54 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 3,
@@ -2837,7 +2915,7 @@
         "ip": "beta.gouv.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
-        "finding": "51 >= 30 days"
+        "finding": "44 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -2998,7 +3076,7 @@
         "ip": "beta.gouv.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
-        "finding": "1724548199"
+        "finding": "1725153169"
       },
       {
         "id": "HSTS_time",
@@ -3903,7 +3981,7 @@
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
-        "finding": "51 >= 30 days"
+        "finding": "44 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -4064,7 +4142,7 @@
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "1724548295"
+        "finding": "1725153224"
       },
       {
         "id": "HSTS_time",
@@ -4627,7 +4705,7 @@
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "195"
+        "finding": "110"
       }
     ],
     "thirdparties": {
@@ -4638,7 +4716,7 @@
           "value": "1",
           "domain": "beta.gouv.fr",
           "path": "/",
-          "expires": 1724549932,
+          "expires": 1725154936,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -4650,10 +4728,10 @@
         },
         {
           "name": "_pk_id.1.968e",
-          "value": "453c5453c27fbdbd.1724548133.",
+          "value": "fe19d147be87d965.1725153136.",
           "domain": "beta.gouv.fr",
           "path": "/",
-          "expires": 1758503333,
+          "expires": 1759108336,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -4667,11 +4745,11 @@
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 25 Aug 2024 01:08:50 GMT",
-        "etag": "W/\"66c78706-9d40\"",
-        "last-modified": "Thu, 22 Aug 2024 18:44:22 GMT",
+        "date": "Sun, 01 Sep 2024 01:12:15 GMT",
+        "etag": "W/\"66d17cf9-9cd1\"",
+        "last-modified": "Fri, 30 Aug 2024 08:04:09 GMT",
         "strict-transport-security": "max-age=31536000",
-        "x-request-id": "56c19f92-a09e-4789-b5a0-c0c11dd72cf6"
+        "x-request-id": "1e547e59-acc5-4f9e-9176-369e5f35de2a"
       },
       "endpoints": [
         {
@@ -4781,24 +4859,6 @@
           "rootPath": true
         },
         {
-          "slug": "hsts",
-          "name": "HSTS",
-          "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
-          "confidence": 100,
-          "version": null,
-          "icon": "default.svg",
-          "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 16,
-              "slug": "security",
-              "name": "Security"
-            }
-          ],
-          "rootPath": true
-        },
-        {
           "slug": "sendinblue",
           "name": "Sendinblue",
           "description": "Sendinblue is an email marketing solution for small and medium-sized businesses that want to send and automate email marketing campaigns.",
@@ -4845,6 +4905,24 @@
           "rootPath": true
         },
         {
+          "slug": "hsts",
+          "name": "HSTS",
+          "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+          "confidence": 100,
+          "version": null,
+          "icon": "default.svg",
+          "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 16,
+              "slug": "security",
+              "name": "Security"
+            }
+          ],
+          "rootPath": true
+        },
+        {
           "slug": "pwa",
           "name": "PWA",
           "description": "Progressive Web Apps (PWAs) are web apps built and enhanced with modern APIs to deliver enhanced capabilities, reliability, and installability while reaching anyone, anywhere, on any device, all with a single codebase.",
@@ -4883,18 +4961,1547 @@
       ]
     },
     "zap": null,
-    "nuclei": [],
+    "nuclei": [
+      {
+        "template": "dns/caa-fingerprint.yaml",
+        "template-url": "https://templates.nuclei.sh/public/caa-fingerprint",
+        "template-id": "caa-fingerprint",
+        "template-path": "/home/runner/nuclei-templates/dns/caa-fingerprint.yaml",
+        "info": {
+          "name": "CAA Record",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "caa"
+          ],
+          "description": "A CAA record was discovered. A CAA record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain.",
+          "reference": [
+            "https://support.dnsimple.com/articles/caa-record/#whats-a-caa-record"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "beta.gouv.fr.",
+        "matched-at": "beta.gouv.fr",
+        "timestamp": "2024-09-01T01:15:08.176186525Z",
+        "matcher-status": true
+      },
+      {
+        "template": "dns/mx-fingerprint.yaml",
+        "template-url": "https://templates.nuclei.sh/public/mx-fingerprint",
+        "template-id": "mx-fingerprint",
+        "template-path": "/home/runner/nuclei-templates/dns/mx-fingerprint.yaml",
+        "info": {
+          "name": "MX Record Detection",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "mx"
+          ],
+          "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
+          "reference": [
+            "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
+            "https://mxtoolbox.com/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "beta.gouv.fr.",
+        "matched-at": "beta.gouv.fr",
+        "extracted-results": [
+          "1 mx.ox.numerique.gouv.fr."
+        ],
+        "timestamp": "2024-09-01T01:15:08.185804692Z",
+        "matcher-status": true
+      },
+      {
+        "template": "dns/spf-record-detect.yaml",
+        "template-url": "https://templates.nuclei.sh/public/spf-record-detect",
+        "template-id": "spf-record-detect",
+        "template-path": "/home/runner/nuclei-templates/dns/spf-record-detect.yaml",
+        "info": {
+          "name": "SPF Record - Detection",
+          "author": [
+            "rxerium"
+          ],
+          "tags": [
+            "dns",
+            "spf"
+          ],
+          "description": "An SPF TXT record was detected\n",
+          "reference": [
+            "https://www.mimecast.com/content/how-to-create-an-spf-txt-record"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "type": "dns",
+        "host": "beta.gouv.fr.",
+        "matched-at": "beta.gouv.fr",
+        "extracted-results": [
+          "v=spf1 include:mx.ovh.com ~all\""
+        ],
+        "timestamp": "2024-09-01T01:15:08.252197956Z",
+        "matcher-status": true
+      },
+      {
+        "template": "dns/txt-fingerprint.yaml",
+        "template-url": "https://templates.nuclei.sh/public/txt-fingerprint",
+        "template-id": "txt-fingerprint",
+        "template-path": "/home/runner/nuclei-templates/dns/txt-fingerprint.yaml",
+        "info": {
+          "name": "DNS TXT Record Detected",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "txt"
+          ],
+          "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
+          "reference": [
+            "https://www.netspi.com/blog/technical/network-penetration-testing/analyzing-dns-txt-records-to-fingerprint-service-providers/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "beta.gouv.fr.",
+        "matched-at": "beta.gouv.fr",
+        "extracted-results": [
+          "\"Sendinblue-code:98107153cf48b6ee7f14ab7d0a1ab7b5\"",
+          "\"riot-domain-verification=470fc7a8e860c7c5ee2fac05dc24291cbac8188829922716b305d5e52047\"",
+          "\"google-site-verification=Mo4Mbev37H1GkeCJtasIGj320ipsKn0mKUl4KyrvFBM\"",
+          "\"brevo-code:7ebaadebf46f3bb01a30f500d9edafa9\"",
+          "\"v=spf1 include:mx.ovh.com ~all\"",
+          "\"google-site-verification=ejIpUG1rg69LP1NhluAU5YoR4HrV2avM5FvNuIwLSRY\"",
+          "\"MS=4A732B260FFD4F901CAE36FB0D99DED7FB8CDC12\"",
+          "\"google-site-verification=lfIzZXA-NeXZJYKhXJEpi89tvcAk4VsX2vOciP0ougo\"",
+          "\"Sendinblue-code:8929780161d193b814fa4fa4958461f3\"",
+          "\"Sendinblue-code:1e9473206dde93a169d3acf07bec0adf\"",
+          "\"sendinblue-code:de106244f818fc1674ecb675e73f2d50\""
+        ],
+        "timestamp": "2024-09-01T01:15:08.252401707Z",
+        "matcher-status": true
+      },
+      {
+        "template": "dns/nameserver-fingerprint.yaml",
+        "template-url": "https://templates.nuclei.sh/public/nameserver-fingerprint",
+        "template-id": "nameserver-fingerprint",
+        "template-path": "/home/runner/nuclei-templates/dns/nameserver-fingerprint.yaml",
+        "info": {
+          "name": "NS Record Detection",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "ns"
+          ],
+          "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "beta.gouv.fr.",
+        "matched-at": "beta.gouv.fr",
+        "extracted-results": [
+          "ns18.ovh.net.",
+          "dns18.ovh.net."
+        ],
+        "timestamp": "2024-09-01T01:15:09.094375143Z",
+        "matcher-status": true
+      },
+      {
+        "template": "dns/dmarc-detect.yaml",
+        "template-url": "https://templates.nuclei.sh/public/dmarc-detect",
+        "template-id": "dmarc-detect",
+        "template-path": "/home/runner/nuclei-templates/dns/dmarc-detect.yaml",
+        "info": {
+          "name": "DNS DMARC - Detect",
+          "author": [
+            "juliosmelo"
+          ],
+          "tags": [
+            "dns",
+            "dmarc"
+          ],
+          "description": "DNS DMARC information was detected.\n",
+          "reference": [
+            "https://dmarc.org/",
+            "https://dmarc.org/wiki/faq#why_is_dmarc_important.3f"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "type": "dns",
+        "host": "beta.gouv.fr.",
+        "matched-at": "_dmarc.beta.gouv.fr",
+        "extracted-results": [
+          "\"v=DMARC1; p=none; sp=none; rua=mailto:dmarc@mailinblue.com!10m; ruf=mailto:dmarc@mailinblue.com!10m; rf=afrf; pct=100; ri=86400\""
+        ],
+        "timestamp": "2024-09-01T01:15:09.255931629Z",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/addeventlistener-detect.yaml",
+        "template-url": "https://templates.nuclei.sh/public/addeventlistener-detect",
+        "template-id": "addeventlistener-detect",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/addeventlistener-detect.yaml",
+        "info": {
+          "name": "DOM EventListener - Cross-Site Scripting",
+          "author": [
+            "yavolo",
+            "dwisiswant0"
+          ],
+          "tags": [
+            "miscellaneous",
+            "xss",
+            "misc"
+          ],
+          "description": "EventListener contains a cross-site scripting vulnerability via the document object model (DOM). An attacker can execute arbitrary script which can then allow theft of cookie-based authentication credentials and launch of  other attacks.",
+          "reference": [
+            "https://portswigger.net/web-security/dom-based/controlling-the-web-message-source"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-79"
+            ],
+            "cvss-metrics": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+            "cvss-score": 7.2
+          }
+        },
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:19.077490066Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/form-detection.yaml",
+        "template-url": "https://templates.nuclei.sh/public/form-detection",
+        "template-id": "form-detection",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/form-detection.yaml",
+        "info": {
+          "name": "Form Detection",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "form",
+            "misc",
+            "miscellaneous"
+          ],
+          "description": "A template to detect HTML Forms in page response.\n",
+          "reference": [
+            "https://github.com/dirtycoder0124/formcrawler"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:54.224220603Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030511436Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "referrer-policy",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030552222Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "cross-origin-opener-policy",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030564475Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "permissions-policy",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030580595Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-frame-options",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030595493Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-content-type-options",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030608698Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "cross-origin-resource-policy",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030622604Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "content-security-policy",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030634596Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "clear-site-data",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030643002Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "cross-origin-embedder-policy",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:15:58.030656607Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/exposures/configs/azure-domain-tenant.yaml",
+        "template-url": "https://templates.nuclei.sh/public/azure-domain-tenant",
+        "template-id": "azure-domain-tenant",
+        "template-path": "/home/runner/nuclei-templates/http/exposures/configs/azure-domain-tenant.yaml",
+        "info": {
+          "name": "Microsoft Azure Domain Tenant ID - Detect",
+          "author": [
+            "v0idc0de"
+          ],
+          "tags": [
+            "azure",
+            "microsoft",
+            "cloud",
+            "exposure"
+          ],
+          "description": "Microsoft Azure Domain Tenant ID was detected.",
+          "reference": [
+            "https://azure.microsoft.com"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://login.microsoftonline.com:443/beta.gouv.fr/v2.0/.well-known/openid-configuration",
+        "extracted-results": [
+          "69e439be-1350-422a-baa9-ff64796a83cd"
+        ],
+        "ip": "20.190.190.129",
+        "timestamp": "2024-09-01T01:15:59.762287518Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Host: login.microsoftonline.com' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://login.microsoftonline.com:443/beta.gouv.fr/v2.0/.well-known/openid-configuration'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/exposures/configs/dockerfile-hidden-disclosure.yaml",
+        "template-url": "https://templates.nuclei.sh/public/dockerfile-hidden-disclosure",
+        "template-id": "dockerfile-hidden-disclosure",
+        "template-path": "/home/runner/nuclei-templates/http/exposures/configs/dockerfile-hidden-disclosure.yaml",
+        "info": {
+          "name": "Dockerfile - Detect",
+          "author": [
+            "dhiyaneshdk"
+          ],
+          "tags": [
+            "exposure",
+            "config"
+          ],
+          "description": "Dockerfile was detected.",
+          "reference": [
+            "https://github.com/detectify/ugly-duckling/blob/master/modules/crowdsourced/dockerfile-hidden-disclosure.json"
+          ],
+          "severity": "medium",
+          "metadata": {
+            "max-request": 3
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "cvss-score": 5.3
+          }
+        },
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr/Dockerfile",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:16:00.592431589Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr/Dockerfile'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/exposures/configs/guard-config.yaml",
+        "template-url": "https://templates.nuclei.sh/public/guard-config",
+        "template-id": "guard-config",
+        "template-path": "/home/runner/nuclei-templates/http/exposures/configs/guard-config.yaml",
+        "info": {
+          "name": "Guardfile Config - Detect",
+          "author": [
+            "dhiyaneshdk"
+          ],
+          "tags": [
+            "exposure",
+            "file",
+            "guard",
+            "config"
+          ],
+          "description": "Guardfile configuration information was detected.",
+          "reference": [
+            "https://github.com/guard/guard",
+            "https://github.com/maurosoria/dirsearch/blob/master/db/dicc.txt"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "shodan-query": "html:\"Guardfile\"",
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr/Guardfile",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:16:00.860384356Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr/Guardfile'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrantEmail",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "swscdmldpsaea7q26su0@y.o-w-o.info"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293180551Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrantPhone",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "+33.171211133"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293227579Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "secureDNS",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "false"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293244411Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrationDate",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "2016-02-24T18:10:37Z"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293258658Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "lastChangeDate",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "2024-03-31T22:10:32.783678Z"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293272834Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrantName",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "Etat francais represente par DINSIC ISN"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293287061Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrantAddress",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "20 avenue de Segur",
+          "Paris",
+          "75007",
+          "FR"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293306838Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrantCountry",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "FR"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293323058Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "nameServers",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "ns18.ovh.net",
+          "dns18.ovh.net"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293336884Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "status",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "active"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293351331Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "expirationDate",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "2025-02-24T18:10:37Z"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.293364335Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "miscellaneous",
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrantOrg",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://rdap.nic.fr/domain/beta.gouv.fr",
+        "extracted-results": [
+          "DINSIC ISN"
+        ],
+        "ip": "64.176.191.126",
+        "timestamp": "2024-09-01T01:16:11.29337792Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/beta.gouv.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/technologies/waf-detect.yaml",
+        "template-url": "https://templates.nuclei.sh/public/waf-detect",
+        "template-id": "waf-detect",
+        "template-path": "/home/runner/nuclei-templates/http/technologies/waf-detect.yaml",
+        "info": {
+          "name": "WAF Detection",
+          "author": [
+            "dwisiswant0",
+            "lu4nx"
+          ],
+          "tags": [
+            "waf",
+            "tech",
+            "misc"
+          ],
+          "description": "A web application firewall was detected.",
+          "reference": [
+            "https://github.com/ekultek/whatwaf"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "matcher-name": "nginxgeneric",
+        "type": "http",
+        "host": "https://beta.gouv.fr",
+        "matched-at": "https://beta.gouv.fr/",
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:16:23.819940564Z",
+        "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr/'",
+        "matcher-status": true
+      },
+      {
+        "template": "ssl/detect-ssl-issuer.yaml",
+        "template-url": "https://templates.nuclei.sh/public/ssl-issuer",
+        "template-id": "ssl-issuer",
+        "template-path": "/home/runner/nuclei-templates/ssl/detect-ssl-issuer.yaml",
+        "info": {
+          "name": "Detect SSL Certificate Issuer",
+          "author": [
+            "lingtren"
+          ],
+          "tags": [
+            "ssl",
+            "tls"
+          ],
+          "description": "Extract the issuer's organization from the target's certificate. Issuers are entities which sign and distribute certificates.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "type": "ssl",
+        "host": "beta.gouv.fr",
+        "matched-at": "beta.gouv.fr:443",
+        "extracted-results": [
+          "Let's Encrypt"
+        ],
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:19:25.738172831Z",
+        "matcher-status": true
+      },
+      {
+        "template": "ssl/ssl-dns-names.yaml",
+        "template-url": "https://templates.nuclei.sh/public/ssl-dns-names",
+        "template-id": "ssl-dns-names",
+        "template-path": "/home/runner/nuclei-templates/ssl/ssl-dns-names.yaml",
+        "info": {
+          "name": "SSL DNS Names",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "ssl",
+            "tls"
+          ],
+          "description": "Extract the Subject Alternative Name (SAN) from the target's certificate. SAN facilitates the usage of additional hostnames with the same certificate.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "type": "ssl",
+        "host": "beta.gouv.fr",
+        "matched-at": "beta.gouv.fr:443",
+        "extracted-results": [
+          "beta.gouv.fr"
+        ],
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:19:25.738288086Z",
+        "matcher-status": true
+      },
+      {
+        "template": "ssl/tls-version.yaml",
+        "template-url": "https://templates.nuclei.sh/public/tls-version",
+        "template-id": "tls-version",
+        "template-path": "/home/runner/nuclei-templates/ssl/tls-version.yaml",
+        "info": {
+          "name": "TLS Version - Detect",
+          "author": [
+            "pdteam",
+            "pussycat0x"
+          ],
+          "tags": [
+            "ssl",
+            "tls"
+          ],
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 4
+          }
+        },
+        "type": "ssl",
+        "host": "beta.gouv.fr",
+        "matched-at": "beta.gouv.fr:443",
+        "extracted-results": [
+          "tls12"
+        ],
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:19:27.005021294Z",
+        "matcher-status": true
+      },
+      {
+        "template": "ssl/tls-version.yaml",
+        "template-url": "https://templates.nuclei.sh/public/tls-version",
+        "template-id": "tls-version",
+        "template-path": "/home/runner/nuclei-templates/ssl/tls-version.yaml",
+        "info": {
+          "name": "TLS Version - Detect",
+          "author": [
+            "pdteam",
+            "pussycat0x"
+          ],
+          "tags": [
+            "ssl",
+            "tls"
+          ],
+          "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 4
+          }
+        },
+        "type": "ssl",
+        "host": "beta.gouv.fr",
+        "matched-at": "beta.gouv.fr:443",
+        "extracted-results": [
+          "tls13"
+        ],
+        "ip": "109.232.236.90",
+        "timestamp": "2024-09-01T01:19:27.174794285Z",
+        "matcher-status": true
+      }
+    ],
     "lhr": [
       {
         "requestedUrl": "https://beta.gouv.fr/",
         "finalUrl": "https://beta.gouv.fr/",
-        "fetchTime": "2024-08-25T01:08:29.122Z",
+        "fetchTime": "2024-09-01T01:11:54.029Z",
         "runWarnings": [],
         "categories": {
           "performance": {
             "title": "Performance",
             "id": "performance",
-            "score": 0.98
+            "score": 0.99
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4920,7 +6527,7 @@
             "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
             "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
             "id": "pwa",
-            "score": 0.67
+            "score": 0.5
           }
         },
         "audits": {
@@ -4941,38 +6548,40 @@
                   "largestContentfulPaint": 2113,
                   "firstCPUIdle": 1813,
                   "interactive": 1813,
-                  "speedIndex": 2550,
+                  "speedIndex": 1866,
                   "estimatedInputLatency": 13,
                   "totalBlockingTime": 0,
                   "maxPotentialFID": 16,
                   "cumulativeLayoutShift": 0.0035968424479166663,
                   "cumulativeLayoutShiftAllFrames": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 864240779,
+                  "observedTimeOriginTs": 653653940,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 864240779,
-                  "observedFirstPaint": 1136,
-                  "observedFirstPaintTs": 865376371,
-                  "observedFirstContentfulPaint": 1136,
-                  "observedFirstContentfulPaintTs": 865376371,
-                  "observedFirstMeaningfulPaint": 1136,
-                  "observedFirstMeaningfulPaintTs": 865376371,
-                  "observedLargestContentfulPaint": 1136,
-                  "observedLargestContentfulPaintTs": 865376371,
-                  "observedTraceEnd": 2795,
-                  "observedTraceEndTs": 867035734,
-                  "observedLoad": 1738,
-                  "observedLoadTs": 865978723,
-                  "observedDomContentLoaded": 1240,
-                  "observedDomContentLoadedTs": 865481213,
+                  "observedNavigationStartTs": 653653940,
+                  "observedFirstPaint": 661,
+                  "observedFirstPaintTs": 654314743,
+                  "observedFirstContentfulPaint": 661,
+                  "observedFirstContentfulPaintTs": 654314743,
+                  "observedFirstMeaningfulPaint": 661,
+                  "observedFirstMeaningfulPaintTs": 654314743,
+                  "observedLargestContentfulPaint": 661,
+                  "observedLargestContentfulPaintTs": 654314743,
+                  "observedLargestContentfulPaintAllFrames": 1671,
+                  "observedLargestContentfulPaintAllFramesTs": 655324699,
+                  "observedTraceEnd": 2113,
+                  "observedTraceEndTs": 655767278,
+                  "observedLoad": 973,
+                  "observedLoadTs": 654626719,
+                  "observedDomContentLoaded": 677,
+                  "observedDomContentLoadedTs": 654330810,
                   "observedCumulativeLayoutShift": 0.0035968424479166663,
                   "observedCumulativeLayoutShiftAllFrames": 0,
-                  "observedFirstVisualChange": 1141,
-                  "observedFirstVisualChangeTs": 865381779,
-                  "observedLastVisualChange": 1757,
-                  "observedLastVisualChangeTs": 865997779,
-                  "observedSpeedIndex": 1158,
-                  "observedSpeedIndexTs": 865398716
+                  "observedFirstVisualChange": 653,
+                  "observedFirstVisualChangeTs": 654306940,
+                  "observedLastVisualChange": 1269,
+                  "observedLastVisualChangeTs": 654922940,
+                  "observedSpeedIndex": 670,
+                  "observedSpeedIndexTs": 654323826
                 },
                 {
                   "lcpInvalidated": false
@@ -4990,23 +6599,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 44,
+                  "numRequests": 46,
                   "numScripts": 3,
                   "numStylesheets": 4,
                   "numFonts": 4,
-                  "numTasks": 1208,
-                  "numTasksOver10ms": 1,
+                  "numTasks": 1293,
+                  "numTasksOver10ms": 2,
                   "numTasksOver25ms": 1,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 150.31300000000002,
-                  "throughput": 5481219.637929138,
-                  "maxRtt": 158.159,
-                  "maxServerLatency": 12.948000000000008,
-                  "totalByteWeight": 539611,
-                  "totalTaskTime": 167.62599999999975,
-                  "mainDocumentTransferSize": 8054
+                  "rtt": 79.718,
+                  "throughput": 9670476.131702561,
+                  "maxRtt": 87.84100000000001,
+                  "maxServerLatency": 13.196999999999989,
+                  "totalByteWeight": 548536,
+                  "totalTaskTime": 213.90199999999695,
+                  "mainDocumentTransferSize": 8033
                 }
               ]
             }
@@ -5019,7 +6628,7 @@
     "github_repository": null,
     "budget_page": null,
     "declaration-a11y": {
-      "mention": "Accessibilité : non conforme",
+      "mention": "Accessibilité : partiellement conforme",
       "declarationUrl": "https://beta.gouv.fr/accessibilite/"
     },
     "declaration-rgpd": null,
@@ -5028,7 +6637,7 @@
     "sonarcloud": null,
     "dsfr": null,
     "summary": {
-      "404": 5,
+      "404": 9,
       "httpGrade": "C",
       "nmapGrade": "A",
       "nmapOpenPortsCount": 2,
@@ -5040,7 +6649,7 @@
       "cookiesCount": 2,
       "trackersGrade": "A",
       "trackersCount": 0,
-      "lighthouse_performance": 0.98,
+      "lighthouse_performance": 0.99,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",
@@ -5048,9 +6657,9 @@
       "lighthouse_best-practicesGrade": "A",
       "lighthouse_seo": 1,
       "lighthouse_seoGrade": "A",
-      "lighthouse_pwa": 0.67,
-      "lighthouse_pwaGrade": "B",
-      "declaration-a11y": "C"
+      "lighthouse_pwa": 0.5,
+      "lighthouse_pwaGrade": "D",
+      "declaration-a11y": "B"
     }
   }
 ]
