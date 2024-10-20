@@ -6,7 +6,7 @@
       "value": "1",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1728783621,
+      "expires": 1729388754,
       "size": 15,
       "httpOnly": false,
       "secure": false,
@@ -18,10 +18,10 @@
     },
     {
       "name": "_pk_id.1.968e",
-      "value": "2a138f88172cab23.1728781822.",
+      "value": "3c47adcb7c03379e.1729386954.",
       "domain": "beta.gouv.fr",
       "path": "/",
-      "expires": 1762737022,
+      "expires": 1763342154,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -35,16 +35,16 @@
   "headers": {
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 13 Oct 2024 01:10:20 GMT",
-    "etag": "W/\"670a6aca-9e60\"",
-    "last-modified": "Sat, 12 Oct 2024 12:25:46 GMT",
+    "date": "Sun, 20 Oct 2024 01:15:52 GMT",
+    "etag": "W/\"6710430c-9e72\"",
+    "last-modified": "Wed, 16 Oct 2024 22:49:48 GMT",
     "strict-transport-security": "max-age=31536000",
-    "x-request-id": "3fc7d8bd-fda2-4e1e-9155-057aec2b40fe"
+    "x-request-id": "f3f0b60f-8337-4a0a-ada2-bc373235c7b7"
   },
   "endpoints": [
     {
       "hostname": "beta.gouv.fr",
-      "ip": "5.104.101.30",
+      "ip": "109.232.236.90",
       "geoip": {
         "continent": {
           "code": "EU",
