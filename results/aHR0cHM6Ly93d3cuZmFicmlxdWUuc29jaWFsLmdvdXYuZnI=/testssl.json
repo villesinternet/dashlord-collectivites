@@ -269,7 +269,7 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04E66791CE2523DE5389D7161C38BE170F8B"
+              "finding"      : "0445F07AE18CA782D69B1FD54E77AC38341B"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "90A02EFC37FD043A329C96F3C98F7A37E349F929"
+              "finding"      : "7B1A2C31C001B74221DDD7B97C1B2A26CE5E6F5C"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "264A7B2E57B1CBBE42D2A792E64A1385BF51DDD8D8CA324156A0077A2D6F5239"
+              "finding"      : "D4393AB55D68EFF093620AA5B55F2ABCCD39F4CE45654E687344B89E56753713"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIID0TCCA1egAwIBAgISBOZnkc4lI95TidcWHDi+Fw+LMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNTAeFw0yNDEwMTYxMDAyMTFaFw0yNTAxMTQxMDAyMTBaMDQxMjAwBgNVBAMTKXdvcmRwcmVzcy5sYWZhYnJpcXVlbnVtZXJpcXVlLmNsb3VkLWVkLmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERHY0TJOrEkFVtOPXxZva2DG35F4faOZ7DsacY/Zpk2/9CGU3RKvhsr7GsqTBxfNy+rbyctjh64XYJ9zEwV6u2aOCAkkwggJFMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUbd5mC7cAjkSJbWymoLx0TW+HbmswHwYDVR0jBBgwFoAUnytfzzwhT50Et+0rLMTGcIvS1w0wVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vZTUuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9lNS5pLmxlbmNyLm9yZy8wUQYDVR0RBEowSIIpd29yZHByZXNzLmxhZmFicmlxdWVudW1lcmlxdWUuY2xvdWQtZWQuZnKCG3d3dy5mYWJyaXF1ZS5zb2NpYWwuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB3AKLjCuRF772tm3447Udnd1PXgluElNcrXhssxLlQpEfnAAABkpT8ssoAAAQDAEgwRgIhAPoTdQHyT+IgVNvxah5HlCXMer5h5EIP9RHAtK/RiH7EAiEAg0bjAPXF8VkETMKYTLOEPx08sLMS8Zf5YLmZaDcSQpAAdgATSt8atZhCCXgMb+9MepGkFrcjSc5YV2rfrtqnwqvgIgAAAZKU/LRHAAAEAwBHMEUCIH56e7gDA/rlJrzc99RJyWfZZ0wBsq++6perWOR2B4SKAiEA9GrVjtfZ/pCMO9tMUFJB30wD/oNKLPggbHwdZfsoflowCgYIKoZIzj0EAwMDaAAwZQIwDYDcqvTjdVLSmdqKeg+JC/exdan4EpjqRpMQfGTn+0NlQon086GmsTgxKfFIkm8WAjEAkWcaMIChK5nUJz3XzDCA5Fd5O+qFJa3I6LDoCQlFMnKOQMBjvqkmlNbIug2+60Rj\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIID0TCCA1egAwIBAgISBEXweuGMp4LWmx/VTnesODQbMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNTAeFw0yNDEyMTYwNzU0NDZaFw0yNTAzMTYwNzU0NDVaMDQxMjAwBgNVBAMTKXdvcmRwcmVzcy5sYWZhYnJpcXVlbnVtZXJpcXVlLmNsb3VkLWVkLmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERHY0TJOrEkFVtOPXxZva2DG35F4faOZ7DsacY/Zpk2/9CGU3RKvhsr7GsqTBxfNy+rbyctjh64XYJ9zEwV6u2aOCAkkwggJFMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUbd5mC7cAjkSJbWymoLx0TW+HbmswHwYDVR0jBBgwFoAUnytfzzwhT50Et+0rLMTGcIvS1w0wVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vZTUuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9lNS5pLmxlbmNyLm9yZy8wUQYDVR0RBEowSIIpd29yZHByZXNzLmxhZmFicmlxdWVudW1lcmlxdWUuY2xvdWQtZWQuZnKCG3d3dy5mYWJyaXF1ZS5zb2NpYWwuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2AE51oydcmhDDOFts1N8/Uusd8OCOG41pwLH6ZLFimjnfAAABk86r9rIAAAQDAEcwRQIge7JXKDfGTevMjrBtH+NMeB8ZGdGh+0rIXHyaAeu2oPICIQDLtxqKeU394tBD38na+vCzvvFSd8m+7ZCMpFk0R5FtzwB3ABNK3xq1mEIJeAxv70x6kaQWtyNJzlhXat+u2qfCq+AiAAABk86r94YAAAQDAEgwRgIhALLXTfLRZfgIBA7GQ0XCyeSmieof3O4Tx3JWsduFFUalAiEAsyeZKq7ppn8uzwBmzp4eNTu+XwGDu9mz3JTsLyK83qwwCgYIKoZIzj0EAwMDaAAwZQIxAPx2cqsAlo6wi0O6AhMsZ1i9YTaq6zCQa5w1jjgokU5txulDqudt/svjZWR8yMr4PgIwCn78oHq76EenHFRFHipXerSU7PxW0DkwEe37Ibdeeo6kbi3ZgD7AGGii0NK3kwgz\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "30 >= 30 days"
+              "finding"      : "84 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-10-16 10:02"
+              "finding"      : "2024-12-16 07:54"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-01-14 10:02"
+              "finding"      : "2025-03-16 07:54"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,14 +500,14 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734225307"
+              "finding"      : "1734829787"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1091,6 +1091,6 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "53"
           }
 ]
